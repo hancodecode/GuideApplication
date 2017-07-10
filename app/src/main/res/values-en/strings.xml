@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SmartBulter</string>
+    <string name="tabname_one">Service Steward</string>
+    <string name="tabname_two">WeChat Selection</string>
+    <string name="tabname_three">Beauty Community</string>
+    <string name="tabname_four">Personal Center</string>
+    <string name="setting">Setting</string>
+</resources>
