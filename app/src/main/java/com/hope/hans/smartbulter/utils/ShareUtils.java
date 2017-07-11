@@ -40,7 +40,7 @@ public class ShareUtils {
         sp.edit().putBoolean(key,values).commit();
     }
 
-    public static boolean getInt(Context mContext,String key,boolean defValues) {
+    public static boolean getBoolean(Context mContext,String key,boolean defValues) {
         SharedPreferences sp = mContext.getSharedPreferences(NAME,Context.MODE_PRIVATE);
         return  sp.getBoolean(key,defValues);
     }

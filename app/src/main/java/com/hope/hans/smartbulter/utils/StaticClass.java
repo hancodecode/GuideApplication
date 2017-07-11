@@ -8,4 +8,9 @@ package com.hope.hans.smartbulter.utils;
  * 描述:   数组/常量
  */
 public class StaticClass {
+
+    //闪屏页延时
+    public static final int HANDLER_SPLASH = 1001;
+    //程序是否第一次运行
+    public static final String SHARE_IS_FIRST = "isFirst";
 }

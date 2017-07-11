@@ -9,7 +9,9 @@
             android:label="@string/app_name"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <!--闪屏-->
+        <activity android:name=".ui.SplashActivity"
+        android:theme="@style/FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -19,6 +21,10 @@
         <!--设置-->
         <activity android:name=".ui.SettingActivity"
         android:label="@string/setting"/>
+        <activity android:name=".MainActivity"/>
+
+        <activity android:name=".ui.GuideActivity"/>
+
     </application>
 
 </manifest>
