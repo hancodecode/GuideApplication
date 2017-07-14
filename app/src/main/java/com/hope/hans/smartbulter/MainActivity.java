@@ -19,6 +19,7 @@ import com.hope.hans.smartbulter.fragment.UserFragment;
 import com.hope.hans.smartbulter.fragment.WechatFragment;
 import com.hope.hans.smartbulter.ui.SettingActivity;
 import com.hope.hans.smartbulter.utils.L;
+import com.tencent.bugly.crashreport.CrashReport;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,6 +50,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         initData();
         initView();
+
+
     }
 
 
