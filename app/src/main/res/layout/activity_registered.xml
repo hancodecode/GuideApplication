@@ -2,6 +2,55 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+              android:padding="12dp">
+
+    <EditText
+            android:id="@+id/et_user"
+            android:hint="用户名"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:id="@+id/et_age"
+            android:hint="年龄"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:id="@+id/et_desc"
+            android:hint="简介"
+            android:lines="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <RadioGroup
+            android:id="@+id/mRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <RadioButton
+                android:id="@+id/rb_boy"
+                android:checked="true"
+                android:text="男"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        <RadioButton
+                android:id="@+id/rb_girl"
+                android:checked="true"
+                android:text="女"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <EditText
+            android:id="@+id/et_password"
+            android:hint="密码"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
 
 </LinearLayout>
