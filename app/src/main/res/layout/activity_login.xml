@@ -38,7 +38,6 @@
     </LinearLayout>
 
     <Button
-            android:id="@+id/btn_registered"
             android:text="登录"
             android:layout_marginTop="15dp"
             android:textColor="@android:color/white"
@@ -46,7 +45,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-    <Button android:textColor="@android:color/white"
+    <Button android:id="@+id/btn_registered"
+            android:textColor="@android:color/white"
             android:text="注册"
             android:layout_marginTop="15dp"
             android:background="@drawable/button_bg"

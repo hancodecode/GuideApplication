@@ -47,10 +47,39 @@
     </RadioGroup>
 
     <EditText
-            android:id="@+id/et_password"
+            android:id="@+id/et_pass"
             android:hint="密码"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+
+
+    <EditText
+            android:id="@+id/et_password"
+            android:hint="再输入一次"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <EditText
+            android:id="@+id/et_mail"
+            android:hint="邮箱"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "注册成功需要前往邮箱验证,否则无法登录"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp"/>
+    
+    <Button
+            android:id="@+id/btnRegistered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_bg"
+            android:text="注册"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"/>
 
 
 </LinearLayout>
